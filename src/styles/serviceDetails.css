@@ -1,0 +1,108 @@
+/* SERVICE DETAILS PAGE */
+
+/* Section spacing */
+.service-detail-section {
+  padding: 70px 0;
+  background: #ffffff;
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Image */
+.service-detail-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Text */
+.service-detail-content h1 {
+  font-size: 36px;
+  color: #1f3d3c;
+  margin-bottom: 10px;
+}
+
+.service-detail-content h3 {
+  font-size: 22px;
+  color: #3a5f5d;
+  margin-bottom: 16px;
+}
+
+.service-detail-content p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Feature points */
+.service-points li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Treatments */
+.treatments-section {
+  padding: 60px 0;
+  background: #f8f9f9;
+}
+
+.treatments-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #1f3d3c;
+  margin-bottom: 20px;
+}
+
+.treatment-list {
+  max-width: 700px;
+  margin: auto;
+}
+
+.treatment-list li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+/* Appointment Form */
+.appointment-section {
+  padding: 70px 0;
+}
+
+.appointment-form {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+
+.appointment-form textarea {
+  grid-column: span 2;
+}
+
+.book-btn {
+  grid-column: span 2;
+  padding: 14px;
+  background: #2AA5A1;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  border: none;
+}

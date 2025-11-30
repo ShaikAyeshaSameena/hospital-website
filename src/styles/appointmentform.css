@@ -1,0 +1,80 @@
+.appointment-section {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1f3d3c;
+}
+
+/* --- TWO COLUMN GRID --- */
+.appointment-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.appointment-form select,
+.appointment-form input,
+.appointment-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #dcdcdc;
+  font-size: 1rem;
+}
+
+/* Textarea spans full row */
+.appointment-form textarea {
+  grid-column: span 2;
+  resize: vertical;
+}
+
+.appointment-form textarea {
+  grid-column: span 2;
+  resize: vertical;
+}
+
+/* Email full width */
+.appointment-form input[type="email"] {
+  grid-column: span 2;
+}
+
+
+/* Button spans full width */
+.btn-appoint {
+  grid-column: span 2;
+  padding: 14px;
+  background: #2aa5a1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn-appoint:hover {
+  background: #218b87;
+}
+
+/* RESPONSIVE — ONE COLUMN ON MOBILE */
+@media (max-width: 768px) {
+  .appointment-form {
+    grid-template-columns: 1fr;
+  }
+
+  .appointment-form textarea,
+  .btn-appoint {
+    grid-column: span 1;
+  }
+}
