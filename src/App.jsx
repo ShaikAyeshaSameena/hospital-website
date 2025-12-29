@@ -16,6 +16,7 @@ import GeneralPhysician from './pages/services/GeneralPhysician'
 import AppointmentPage from "./pages/AppointmentPage";
 
 
+
 export default function App(){
   return (
     <div className="app">
@@ -34,9 +35,11 @@ export default function App(){
           <Route path="/services/cardiologist" element={<Cardiologist />} />
           <Route path="/services/nephrologist" element={<Nephrologist />} />
           <Route path="/appointment" element={<AppointmentPage />} />
+          
+
         </Routes>
       </main>
       <Footer />
     </div>
   )
-}
+}  
