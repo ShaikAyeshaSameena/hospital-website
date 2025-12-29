@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/appointmentForm.css";
+import "../styles/AppointmentForm.css";
 
 export default function AppointmentForm() {
   return (
@@ -7,7 +7,7 @@ export default function AppointmentForm() {
       <div className="container form-container">
         <h2 className="form-title">Schedule Your Visit Online</h2>
 
-        <form className="appointment-form" onSubmit={(e) => e.preventDefault()}>
+        <form className="Appointment-Form" onSubmit={(e) => e.preventDefault()}>
 
           <select>
             <option>Select a Service</option>
